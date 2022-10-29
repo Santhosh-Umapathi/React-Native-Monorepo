@@ -10,11 +10,12 @@
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
   },
   "dependencies": {
+    "@monorepo/components": "2.1.0",
     "react": "18.1.0",
-    "react-native": "0.70.4",
-    "@monorepo/components": "2.1.0"
+    "react-native": "0.70.4"
   },
   "devDependencies": {
+    "@appymango/cli": "^1.5.2",
     "@babel/core": "^7.12.9",
     "@babel/runtime": "^7.12.5",
     "@react-native-community/eslint-config": "^2.0.0",
