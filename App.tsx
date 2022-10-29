@@ -18,7 +18,7 @@ const App = () => {
         barStyle={isDarkMode ? 'light-content' : 'dark-content'}
         backgroundColor={backgroundStyle.backgroundColor}
       />
-      <WelcomeScreen text="wel" />
+      <WelcomeScreen text=" Success" />
       <Button onPress={() => console.log('Hi')} title="Package Button" />
     </SafeAreaView>
   );
