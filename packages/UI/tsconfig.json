@@ -24,14 +24,14 @@
     "disableSizeLimit": true,
     "resolveJsonModule": true,
     "types": ["react-native"],
-    "outDir": "dist",
+    "outDir": "dist/src",
     "baseUrl": ".",
-    "declaration": true,
+    "declaration": false,
     "paths": {
-      "@components": ["components"]
+      "@components": ["src/components"]
     }
   },
-  "include": ["components/**/*"],
+  "include": ["src/components/**/*"],
   "exclude": [
     "node_modules",
     "babel.config.js",
