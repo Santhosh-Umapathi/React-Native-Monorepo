@@ -1,8 +1,7 @@
 import React from 'react';
 import {SafeAreaView, StatusBar, useColorScheme} from 'react-native';
-import {Button} from '@monorepo/components';
-
 import {Colors} from 'react-native/Libraries/NewAppScreen';
+import {Button} from '@monorepo/components';
 
 const App = () => {
   const isDarkMode = useColorScheme() === 'dark';

@@ -12,7 +12,8 @@
     "Parens",
     "Pressable",
     "recrypt",
-    "svgr"
+    "svgr",
+    "Umapathi"
   ]
   /* 
     flagWords - list of words to be always considered incorrect

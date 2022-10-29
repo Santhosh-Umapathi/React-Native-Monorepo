@@ -3,11 +3,13 @@
   "version": "1.0.0",
   "description": "Screens Module",
   "main": "dist/src/index.js",
+  "typings": "dist/src/index.d.ts",
   "scripts": {
-    "build": "rimraf && tsc --pretty"
+    "build": "rimraf dist && tsc --pretty",
+    "build:w": "rimraf dist && tsc -w"
   },
   "keywords": [],
-  "author": "",
+  "author": "Santhosh Umapathi",
   "license": "ISC",
   "devDependencies": {
     "@appymango/cli": "^1.5.2",

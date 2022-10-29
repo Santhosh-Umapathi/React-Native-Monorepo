@@ -10,7 +10,8 @@
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
   },
   "dependencies": {
-    "@monorepo/components": "2.1.0",
+    "@monorepo/components": "1.0.0",
+    "@monorepo/screens": "1.0.0",
     "react": "18.1.0",
     "react-native": "0.70.4"
   },

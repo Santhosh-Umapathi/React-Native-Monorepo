@@ -1,13 +1,13 @@
-import {View, Text, StyleSheet} from 'react-native';
 import React from 'react';
+import {StyleSheet, Text, View} from 'react-native';
 
-type Props = {};
+type Props = {text: string};
 
 const WelcomeScreen = (props: Props) => {
-  const {} = props;
+  const {text} = props;
   return (
     <View style={styles.container}>
-      <Text>{'Welcome Screen'}</Text>
+      <Text>{'Welcome Screen' + text}</Text>
     </View>
   );
 };
