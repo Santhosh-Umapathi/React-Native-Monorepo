@@ -1,5 +1,5 @@
 {
-  "extends": "../../tsconfig.json",
+  "extends": "../App/tsconfig.json",
   "compilerOptions": {
     "noEmit": false,
     "types": ["react-native"],
