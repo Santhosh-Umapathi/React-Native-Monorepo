@@ -4,7 +4,9 @@
   "private": true,
   "scripts": {},
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "@appymango/cli": "^1.5.2"
+  },
   "jest": {
     "preset": "react-native",
     "moduleFileExtensions": [
