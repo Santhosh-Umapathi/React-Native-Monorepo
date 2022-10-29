@@ -1,12 +1,20 @@
 {
-  "name": "ui",
+  "name": "@monorepo/components",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc --pretty"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@appymango/cli": "^1.5.2",
+    "@types/react-native": "^0.70.6"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-native": "^0.70.4"
+  }
 }
