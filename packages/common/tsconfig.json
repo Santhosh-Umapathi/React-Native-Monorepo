@@ -2,12 +2,10 @@
   "extends": "../mobileapp/tsconfig.json",
   "compilerOptions": {
     "noEmit": false,
-    "types": ["react-native"],
-    "outDir": "dist/src",
+    "types": ["react"],
+    "outDir": "dist",
     "declaration": true,
     "baseUrl": ".",
     "paths": {}
-  },
-  "include": ["src/**/*"],
-  "exclude": ["node_modules"]
+  }
 }

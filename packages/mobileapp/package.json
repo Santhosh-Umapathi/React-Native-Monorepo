@@ -11,7 +11,10 @@
   },
   "dependencies": {
     "react": "18.1.0",
-    "react-native": "0.70.5"
+    "react-native": "0.70.5",
+    "@monorepo/common": "*",
+    "@monorepo/screens": "*",
+    "@monorepo/components": "*"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
@@ -44,8 +47,9 @@
   },
   "workspaces": {
     "nohoist": [
-      "react-native",
-      "react-native/**"
+      "@monorepo/components/**",
+      "@monorepo/screens/**",
+      "@monorepo/common/**"
     ]
   }
 }
