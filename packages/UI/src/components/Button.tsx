@@ -1,14 +1,14 @@
-import {TouchableOpacity, Text, StyleSheet} from 'react-native';
-import React from 'react';
+import { TouchableOpacity, Text, StyleSheet } from "react-native";
+import React from "react";
 
-type Props = {onPress: () => void; title: string};
+type Props = { onPress: () => void; title: string };
 
 const Button = (props: Props) => {
-  const {onPress, title} = props;
+  const { onPress, title } = props;
 
   const onPressHandler = () => {
     onPress();
-    console.log('--Package On Press Log 2  Check--');
+    console.log("Package On Press");
   };
   return (
     <TouchableOpacity onPress={onPressHandler} style={styles.container}>
@@ -17,6 +17,6 @@ const Button = (props: Props) => {
   );
 };
 
-const styles = StyleSheet.create({container: {width: '100%', height: 50}});
+const styles = StyleSheet.create({ container: { width: "100%", height: 50 } });
 
 export default Button;

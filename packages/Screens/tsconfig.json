@@ -6,9 +6,7 @@
     "outDir": "dist/src",
     "declaration": true,
     "baseUrl": ".",
-    "paths": {
-      "@screens": ["src/screens"]
-    }
+    "paths": {}
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules"]

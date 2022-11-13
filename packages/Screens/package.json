@@ -5,8 +5,9 @@
   "main": "dist/src/index.js",
   "typings": "dist/src/index.d.ts",
   "scripts": {
-    "build": "rimraf dist && tsc --pretty",
-    "build:w": "rimraf dist && tsc -w"
+    "build": "yarn clean && tsc --pretty",
+    "build:w": "yarn clean && tsc -w",
+    "clean": "rimraf dist"
   },
   "keywords": [],
   "author": "Santhosh Umapathi",
