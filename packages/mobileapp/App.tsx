@@ -6,8 +6,9 @@ import {
   Text,
   useColorScheme,
 } from 'react-native';
-// import {DisplayResults} from '@monorepo/common';
+import {DisplayResults} from '@monorepo/common';
 import {Button} from '@monorepo/components';
+import {WelcomeScreen} from '@monorepo/screens';
 
 import {Colors} from 'react-native/Libraries/NewAppScreen';
 
@@ -16,6 +17,9 @@ const App = () => {
 
   const backgroundStyle = {
     backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
   };
 
   return (
@@ -26,28 +30,10 @@ const App = () => {
       />
       <Text>Mobile App</Text>
       <Button title="Mobile Button" onPress={() => {}} />
-      {/* <Text>{DisplayResults()}</Text> */}
+      <Text>{DisplayResults()}</Text>
+      <WelcomeScreen text="Sub module" />
     </SafeAreaView>
   );
 };
-
-const styles = StyleSheet.create({
-  sectionContainer: {
-    marginTop: 32,
-    paddingHorizontal: 24,
-  },
-  sectionTitle: {
-    fontSize: 24,
-    fontWeight: '600',
-  },
-  sectionDescription: {
-    marginTop: 8,
-    fontSize: 18,
-    fontWeight: '400',
-  },
-  highlight: {
-    fontWeight: '700',
-  },
-});
 
 export default App;

@@ -2,8 +2,8 @@
   "extends": "../mobileapp/tsconfig.json",
   "compilerOptions": {
     "noEmit": false,
-    "types": ["react"],
-    "outDir": "dist",
+    "types": ["node"],
+    "outDir": "dist/",
     "declaration": true,
     "baseUrl": ".",
     "paths": {}
