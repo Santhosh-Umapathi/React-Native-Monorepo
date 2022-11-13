@@ -18,7 +18,15 @@
       "node"
     ]
   },
-  "workspaces": [
-    "packages/*"
-  ]
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ],
+    "nohoist": [
+      "react",
+      "react/**",
+      "react-native",
+      "react-native/**"
+    ]
+  }
 }
